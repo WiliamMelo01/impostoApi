@@ -22,7 +22,10 @@ async function bootstrap() {
     .setVersion('1.0')
     .addServer('http://localhost:3000')
     .setContact('Wiliam Melo', '', 'Wiiliammelo.mota@gmail.com')
-    .setLicense('MIT', '')
+    .setLicense(
+      'MIT',
+      'https://github.com/WiliamMelo01/impostoApi/blob/master/LICENSE',
+    )
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('doc', app, document);
