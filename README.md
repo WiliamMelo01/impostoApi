@@ -21,7 +21,7 @@ git clone https://github.com/WiliamMelo01/impostoApi
 2 - Instalar Dependências:
 Navegue até o diretório do projeto e instale as dependências usando o gerenciador de pacotes npm ou yarn:
 ``` bash
-cd [impostoApi]
+cd impostoApi
 npm install
 # ou
 yarn install
