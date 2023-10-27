@@ -35,5 +35,8 @@ npm start:dev
 yarn start:dev
 ```
 
-Acessar a Documentação com Swagger:
+## Acessar a Documentação com Swagger
 Após iniciar o servidor, você poderá acessar a documentação da API usando Swagger em seu navegador, acessando http://localhost:3000/doc.
+
+> [!IMPORTANT]
+> Para executar esta aplicacão localmente  voce precisa do Node >= 18.16.1
