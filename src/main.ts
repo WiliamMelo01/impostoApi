@@ -20,7 +20,7 @@ async function bootstrap() {
       'API de imposto desenvolvida como atividade da tarefa de PW-III',
     )
     .setVersion('1.0')
-    .addServer('http://localhost:3000')
+    .addServer('https://impostoapi.onrender.com')
     .setContact('Wiliam Melo', '', 'Wiiliammelo.mota@gmail.com')
     .setLicense(
       'MIT',
