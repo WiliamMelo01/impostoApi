@@ -27,6 +27,13 @@ npm install
 yarn install
 ```
 
+Execute o seguinte comando para a criação do banco de dados localmente
+``` bash
+npx prisma migrate dev
+# ou
+yarn prisma migrate dev
+```
+
 Executar o Servidor:
 Inicie o servidor da API com o seguinte comando:
 ``` bash
